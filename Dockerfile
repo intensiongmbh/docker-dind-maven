@@ -1,4 +1,4 @@
-FROM docker:dind
+FROM docker:20.10.12-dind-alpine3.14
 
 ARG MAVEN_APK_VERSION
 ARG JDK_APK_PACKAGE
